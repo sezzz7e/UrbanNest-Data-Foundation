@@ -153,7 +153,7 @@ These results establish a baseline for future improvements using more advanced r
 ### 1. Clone the Repository
 
 ```bash
-git clone (https://github.com/sezzz7e/UrbanNest-Data-Foundation)
+git clone https://github.com/sezzz7e/UrbanNest-Data-Foundation.git
 ```
 
 ### 2. Navigate to the Project Directory
