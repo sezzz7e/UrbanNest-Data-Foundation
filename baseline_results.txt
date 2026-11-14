@@ -1,0 +1,9 @@
+UrbanNest - Baseline Regression Results
+---------------------------------------
+Model: Linear Regression
+Dataset: Ames Housing
+Training Records: 2344
+Testing Records: 586
+MAE: $17,309.70
+RMSE: $29,633.80
+R2 Score: 0.8905
