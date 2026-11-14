@@ -13,14 +13,20 @@ Kaggle: https://www.kaggle.com/datasets/preathm/ames-housing-dataset
 - Features used: 79
 - Target variable: SalePrice
 
-## Data Preprocessing
-- Handled missing values.
-- Replaced structural missing categorical values with None.
-- Replaced structural missing numerical values with 0.
-- Used median and most-frequent imputation for remaining missing values.
-- Applied One-Hot Encoding to categorical features.
-- Split data into 80% training and 20% testing.
+## Data Cleaning and Preprocessing
 
+The cleaned dataset is generated directly by `baseline_model.py` and saved as `cleaned_ames_housing.csv`.
+
+The preprocessing steps include:
+
+- Replacing structural missing categorical values with `None`.
+- Replacing structural missing numerical values with `0`.
+- Handling remaining numerical missing values using median imputation.
+- Handling remaining categorical missing values using mode imputation.
+- Applying One-Hot Encoding to categorical features.
+- Saving the processed dataset as a CSV file with no missing values.
+
+The baseline model uses a separate preprocessing pipeline fitted on the training data for model training and evaluation.
 ## Model
 Linear Regression
 
